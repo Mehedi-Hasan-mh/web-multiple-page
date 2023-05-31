@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* nav section start  */
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #222285;
+    padding: 10px 200px;
+    border-bottom:4px solid #401E63;
+    position: sticky;
+    top: 0;
+}
+.logo{
+    color: #f80202;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style-type: none;
+    margin: 10px 5px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 20px;
+    transition: 0.5s;
+}
+nav ul li a:hover{
+    background-color:  black;
+    color: red;
+    border-radius: 5px0;
+}
+nav div{
+    color: white;
+    font-size: 20px;
+}
+/* about section styling */
+.about{
+    background-color: #eec3ca;
+}
+.about-content{
+    display: flex;
+}
+.about_profile img{
+    width: 50%;
+    height: 50%;
+    border: 2px solid red;
+    border-radius: 50%;
+    margin-left: 20%;
+}
+.max-width h2{
+    text-align: center;
+    font-size: 40px;
+    padding: 70px;
+}
+.profile_discription{
+    margin-right: 10%;
+}
+.btn{
+    background-color: white;
+    padding: 15px 25px;
+    margin-top: 10px;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+    border: 2px solid black;
+    transition: 0.5s;
+    font-size: 20px;
+}
+.btn:hover{
+    background-color: red;
+    color: white;
+}
+.profile_discription > p{
+    font-size: 22px;
+    text-align: justify;
+}
+/* Footer section  */
+.footer-container{
+    width: 900px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    grid-gap:50px;
+}
+.footer-firstIeams h3{
+    font-size: 25px;
+    padding: 30px 0;
+    margin-top: 20px;
+}
+footer{
+    background-color: #964edd;
+    color: white;
+}
+.footer-firstIeams:first-child p{
+    margin-bottom: 50px;
+}
+.footer-secondIeams h3{
+    font-size: 25px;
+    padding: 30px 0;
+    margin-top: 20px;
+}
+.footer-secondIeams a{
+    text-decoration: none;
+    color: white;
+}
+.footer-secondIeams p{
+    margin-bottom: 10px;
+}
+.footer-thirdIeams div{
+    font-size: 25px;
+    padding: 30px 0;
+    margin-top: 20px;
+}
+.footer-thirdIeams div a{
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+    background-color: #401E63;
+    padding: 8px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.footer-thirdIeams div a:hover{
+    background-color: #2326d8;
+}
+.footer-thirdIeams p{
+    margin-bottom: 10px;
+}
+.footer-thirdIeams p:nth-child(3){
+    margin-bottom: 70px;
+}
